@@ -67,4 +67,9 @@ const nextISSTimesForMyLocation = function(callback) {
     });
   });
 };
-module.exports = { nextISSTimesForMyLocation };
+module.exports = {
+  nextISSTimesForMyLocation,
+  fetchMyIP,
+  fetchCoordsByIP,
+  fetchISSFlyOverTimes
+};
